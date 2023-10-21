@@ -5,11 +5,11 @@ app = Flask(__name)
 
 # Database configuration (replace with your actual database details)
 db_config = {
-    'dbname': 'your_db_name',
-    'user': 'your_db_user',
-    'password': 'your_db_password',
-    'host': 'your_db_host',
-    'port': 'your_db_port'
+    'dbname': 'mydatabase',
+    'user': 'fl0user',
+    'password': 'RXbdasv36qrt',
+    'host': 'ep-shy-thunder-24509743.us-east-2.aws.neon.fl0.io',
+    'port': '5432'
 }
 
 def authorize_access(user_name, access_key):
